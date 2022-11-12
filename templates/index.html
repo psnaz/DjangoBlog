@@ -27,6 +27,10 @@
                                 <h2 class="card-title">{{ post.title }}</h2>
                                 <p class="card-text">{{ post.excerpt }}</p>
                             </a>
+                            <hr>
+                            <p class="card-text text-muted h6">{{ post.created_on }} 
+                                <i class="far fa-heart">{{ post.number_of_likes }}</i>
+                            </p>
                             
                         </div>
                     </div>
